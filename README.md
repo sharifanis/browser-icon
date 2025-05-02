@@ -9,6 +9,7 @@ This project provides a collection of browser icons using pure CSS classes and r
 
 ## 📦 Usage
 
+```html
 <link rel="stylesheet" href="browser-icons.css">
 
 <div class="browser-icon icon-chrome"></div>
