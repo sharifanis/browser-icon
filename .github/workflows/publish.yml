@@ -3,21 +3,21 @@ name: Publish to npm
 on:
   push:
     tags:
-      - 'v*'
+      - 'v*'  # triggers on version tags like v1.0.0
 
 jobs:
   publish:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          registry-url: 'https://registry.npmjs.org/'
+          node-version: 20
+          registry-url: https://registry.npmjs.org/
 
       - name: Install dependencies
         run: npm install
