@@ -1,0 +1,25 @@
+{
+  "name": "browser-icons",
+  "version": "1.0.0",
+  "description": "A collection of browser icons for easy integration into web projects.",
+  "main": "style.css",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/browser-icons.git"
+  },
+  "author": "YOUR_NAME",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharifanis/browser-icons/issues"
+  },
+  "homepage": "https://github.com/sharifanis/browser-icons",
+  "keywords": [
+    "icons",
+    "browser",
+    "svg",
+    "web"
+  ]
+}
