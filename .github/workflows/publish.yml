@@ -24,4 +24,4 @@ jobs:
     - name: Publish to npm
       run: npm publish --access public
       env:
-        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}  # Set up your npm token in GitHub secrets
+        NODE_AUTH_TOKEN: ${{secrets.NPM_BROWSER_ICONS}}  # Set up your npm token in GitHub secrets
