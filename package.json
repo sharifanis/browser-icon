@@ -1,21 +1,21 @@
 {
-  "name": "@sharifanis/browser-icons",
+  "name": "browser-icon",
   "version": "1.0.0",
   "description": "A collection of browser icons for easy integration into web projects.",
-  "main": "browser-icons.css",
+  "main": "browser-icon.css",
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sharifanis/browser-icons.git"
+    "url": "git+https://github.com/sharifanis/browser-icon.git"
   },
   "author": "Sharif Anis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sharifanis/browser-icons/issues"
+    "url": "https://github.com/sharifanis/browser-icon/issues"
   },
-  "homepage": "https://github.com/sharifanis/browser-icons",
+  "homepage": "https://github.com/sharifanis/browser-icon",
   "keywords": [
     "icons",
     "browser",
