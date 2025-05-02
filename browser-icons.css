@@ -1,1 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background: #f7f7f7;
+}
 
+.browser-icon {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 120px;
+}
+
+.browser-icon img {
+  width: 48px;
+  height: 48px;
+}
+
+.browser-name {
+  font-size: 14px;
+  color: #333;
+  margin-top: 8px;
+}
+
+.browser-icon.chrome {
+  background-image: url('icon/chrome.svg');
+}
+
+.browser-icon.edge {
+  background-image: url('icon/edge.svg');
+}
+
+.browser-icon.firefox {
+  background-image: url('icon/firefox.svg');
+}
+
+.browser-icon.safari {
+  background-image: url('icon/safari.svg');
+}
+
+.browser-icon.opera {
+  background-image: url('icon/opera.svg');
+}
+
+.browser-icon.brave {
+  background-image: url('icon/brave.svg');
+}
+
+.browser-icon.tor {
+  background-image: url('icon/tor.svg');
+}
+
+.browser-icon.duckduckgo {
+  background-image: url('icon/duckduckgo.svg');
+}
+
+.browser-icon.yandex {
+  background-image: url('icon/yandex.svg');
+}
+
+.browser-icon.vivaldi {
+  background-image: url('icon/vivaldi.svg');
+}
+
+.browser-icon.samsung {
+  background-image: url('icon/samsung.svg');
+}
+
+.browser-icon.huawei {
+  background-image: url('icon/huawei.svg');
+}
+
+.browser-icon.maxthon {
+  background-image: url('icon/maxthon.svg');
+}
+
+.browser-icon img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+}
