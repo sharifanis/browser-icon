@@ -1,224 +1,83 @@
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px;
-  background: #f7f7f7;
-}
-
-.browser-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.bi {
+  position: relative;
+  display: inline-block;
   text-align: center;
-  flex-direction: column;
+  margin: 10px;
 }
 
-.browser-icon.sm {
+.bi::before {
+  content: " ";
+  display: block;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.bi.sm::before {
   width: 24px;
   height: 24px;
-  background-size: 24px 24px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.browser-icon.md {
+.bi.md::before {
   width: 48px;
   height: 48px;
-  background-size: 48px 48px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.browser-icon.lg {
+.bi.lg::before {
   width: 72px;
   height: 72px;
-  background-size: 72px 72px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.browser-icon.aolexplorer {
-  background-image: url('icon/aolexplorer.svg');
-}
-
-.browser-icon.arora {
-  background-image: url('icon/arora.svg');
-}
-
-.browser-icon.bezillabrowser {
-  background-image: url('icon/bezillabrowser.svg');
-}
-
-.browser-icon.brave {
-  background-image: url('icon/brave.svg');
-}
-
-.browser-icon.bravedev {
-  background-image: url('icon/bravedev.svg');
-}
-
-.browser-icon.browsh {
-  background-image: url('icon/browsh.svg');
-}
-
-.browser-icon.chrome {
-  background-image: url('icon/chrome.svg');
-}
-
-.browser-icon.chromebeta {
-  background-image: url('icon/chromebeta.svg');
-}
-
-.browser-icon.chromecanary {
-  background-image: url('icon/chromecanary.svg');
-}
-
-.browser-icon.chromedev {
-  background-image: url('icon/chromedev.svg');
-}
-
-.browser-icon.chromium {
-  background-image: url('icon/chromium.svg');
-}
-
-.browser-icon.deno {
-  background-image: url('icon/deno.svg');
-}
-
-.browser-icon.duckduckgo {
-  background-image: url('icon/duckduckgo.svg');
-}
-
-.browser-icon.edge {
-  background-image: url('icon/edge.svg');
-}
-
-.browser-icon.electron {
-  background-image: url('icon/electron.svg');
-}
-
-.browser-icon.falkon {
-  background-image: url('icon/falkon.svg');
-}
-
-.browser-icon.firefox {
-  background-image: url('icon/firefox.svg');
-}
-
-.browser-icon.firefoxbeta {
-  background-image: url('icon/firefoxbeta.svg');
-}
-
-.browser-icon.firefoxdeveloper {
-  background-image: url('icon/firefoxdeveloper.svg');
-}
-
-.browser-icon.firefoxlite {
-  background-image: url('icon/firefoxlite.svg');
-}
-
-.browser-icon.firefoxreality {
-  background-image: url('icon/firefoxreality.svg');
-}
-
-.browser-icon.geckoview {
-  background-image: url('icon/geckoview.svg');
-}
-
-.browser-icon.hermes {
-  background-image: url('icon/hermes.svg');
-}
-
-.browser-icon.huawei {
-  background-image: url('icon/huawei.svg');
-}
-
-.browser-icon.icecat {
-  background-image: url('icon/icecat.svg');
-}
-
-.browser-icon.iceweasel {
-  background-image: url('icon/iceweasel.svg');
-}
-
-.browser-icon.internetexplorer {
-  background-image: url('icon/internetexplorer.svg');
-}
-
-.browser-icon.konqueror {
-  background-image: url('icon/konqueror.svg');
-}
-
-.browser-icon.maxthon {
-  background-image: url('icon/maxthon.svg');
-}
-
-.browser-icon.midori {
-  background-image: url('icon/midori.svg');
-}
-
-.browser-icon.netscape {
-  background-image: url('icon/netscape.svg');
-}
-
-.browser-icon.netsurf {
-  background-image: url('icon/netsurf.svg');
-}
-
-.browser-icon.node {
-  background-image: url('icon/node.svg');
-}
-
-.browser-icon.opera {
-  background-image: url('icon/opera.svg');
-}
-
-.browser-icon.operagx {
-  background-image: url('icon/operagx.svg');
-}
-
-.browser-icon.qutebrowser {
-  background-image: url('icon/qutebrowser.svg');
-}
-
-.browser-icon.safari {
-  background-image: url('icon/safari.svg');
-}
-
-.browser-icon.samsunginternet {
-  background-image: url('icon/samsunginternet.svg');
-}
-
-.browser-icon.samsunginternetbeta {
-  background-image: url('icon/samsunginternetbeta.svg');
-}
-
-.browser-icon.spidermonkey {
-  background-image: url('icon/spidermonkey.svg');
-}
-
-.browser-icon.tor {
-  background-image: url('icon/tor.svg');
-}
-
-.browser-icon.ucbrowser {
-  background-image: url('icon/ucbrowser.svg');
-}
-
-.browser-icon.vivaldi {
-  background-image: url('icon/vivaldi.svg');
-}
-
-.browser-icon.yandex {
-  background-image: url('icon/yandex.svg');
 }
 
 .browser-name {
+  margin-top: 6px;
   font-size: 14px;
   color: #333;
-  margin-top: 8px;
   text-align: center;
 }
+
+
+.bi.aolexplorer::before        { background-image: url("icon/aolexplorer.svg"); }
+.bi.arora::before              { background-image: url("icon/arora.svg"); }
+.bi.bezillabrowser::before     { background-image: url("icon/bezillabrowser.svg"); }
+.bi.brave::before              { background-image: url("icon/brave.svg"); }
+.bi.bravedev::before           { background-image: url("icon/bravedev.svg"); }
+.bi.browsh::before             { background-image: url("icon/browsh.svg"); }
+.bi.chrome::before             { background-image: url("icon/chrome.svg"); }
+.bi.chromebeta::before         { background-image: url("icon/chromebeta.svg"); }
+.bi.chromecanary::before       { background-image: url("icon/chromecanary.svg"); }
+.bi.chromedev::before          { background-image: url("icon/chromedev.svg"); }
+.bi.chromium::before           { background-image: url("icon/chromium.svg"); }
+.bi.deno::before               { background-image: url("icon/deno.svg"); }
+.bi.duckduckgo::before         { background-image: url("icon/duckduckgo.svg"); }
+.bi.edge::before               { background-image: url("icon/edge.svg"); }
+.bi.electron::before           { background-image: url("icon/electron.svg"); }
+.bi.falkon::before             { background-image: url("icon/falkon.svg"); }
+.bi.firefox::before            { background-image: url("icon/firefox.svg"); }
+.bi.firefoxbeta::before        { background-image: url("icon/firefoxbeta.svg"); }
+.bi.firefoxdeveloper::before   { background-image: url("icon/firefoxdeveloper.svg"); }
+.bi.firefoxlite::before        { background-image: url("icon/firefoxlite.svg"); }
+.bi.firefoxreality::before     { background-image: url("icon/firefoxreality.svg"); }
+.bi.geckoview::before          { background-image: url("icon/geckoview.svg"); }
+.bi.hermes::before             { background-image: url("icon/hermes.svg"); }
+.bi.huawei::before             { background-image: url("icon/huawei.svg"); }
+.bi.icecat::before             { background-image: url("icon/icecat.svg"); }
+.bi.iceweasel::before          { background-image: url("icon/iceweasel.svg"); }
+.bi.internetexplorer::before   { background-image: url("icon/internetexplorer.svg"); }
+.bi.konqueror::before          { background-image: url("icon/konqueror.svg"); }
+.bi.maxthon::before            { background-image: url("icon/maxthon.svg"); }
+.bi.midori::before             { background-image: url("icon/midori.svg"); }
+.bi.netscape::before           { background-image: url("icon/netscape.svg"); }
+.bi.netsurf::before            { background-image: url("icon/netsurf.svg"); }
+.bi.node::before               { background-image: url("icon/node.svg"); }
+.bi.opera::before              { background-image: url("icon/opera.svg"); }
+.bi.operagx::before            { background-image: url("icon/operagx.svg"); }
+.bi.qutebrowser::before        { background-image: url("icon/qutebrowser.svg"); }
+.bi.safari::before             { background-image: url("icon/safari.svg"); }
+.bi.samsunginternet::before    { background-image: url("icon/samsunginternet.svg"); }
+.bi.samsunginternetbeta::before { background-image: url("icon/samsunginternetbeta.svg"); }
+.bi.spidermonkey::before       { background-image: url("icon/spidermonkey.svg"); }
+.bi.tor::before                { background-image: url("icon/tor.svg"); }
+.bi.ucbrowser::before          { background-image: url("icon/ucbrowser.svg"); }
+.bi.vivaldi::before            { background-image: url("icon/vivaldi.svg"); }
+.bi.yandex::before             { background-image: url("icon/yandex.svg"); }
