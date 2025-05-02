@@ -17,9 +17,201 @@ body {
   max-width: 120px;
 }
 
-.browser-icon img {
+.browser-icon img.small {
+  width: 24px;
+  height: 24px;
+}
+
+.browser-icon img.medium {
   width: 48px;
   height: 48px;
+}
+
+.browser-icon img.large {
+  width: 72px;
+  height: 72px;
+}
+
+.browser-icon.aolexplorer {
+  background-image: url('icon/aolexplorer.svg');
+}
+
+.browser-icon.arora {
+  background-image: url('icon/arora.svg');
+}
+
+.browser-icon.bezillabrowser {
+  background-image: url('icon/bezillabrowser.svg');
+}
+
+.browser-icon.brave {
+  background-image: url('icon/brave.svg');
+}
+
+.browser-icon.bravedev {
+  background-image: url('icon/bravedev.svg');
+}
+
+.browser-icon.browsh {
+  background-image: url('icon/browsh.svg');
+}
+
+.browser-icon.chrome {
+  background-image: url('icon/chrome.svg');
+}
+
+.browser-icon.chromebeta {
+  background-image: url('icon/chromebeta.svg');
+}
+
+.browser-icon.chromecanary {
+  background-image: url('icon/chromecanary.svg');
+}
+
+.browser-icon.chromedev {
+  background-image: url('icon/chromedev.svg');
+}
+
+.browser-icon.chromium {
+  background-image: url('icon/chromium.svg');
+}
+
+.browser-icon.deno {
+  background-image: url('icon/deno.svg');
+}
+
+.browser-icon.duckduckgo {
+  background-image: url('icon/duckduckgo.svg');
+}
+
+.browser-icon.edge {
+  background-image: url('icon/edge.svg');
+}
+
+.browser-icon.electron {
+  background-image: url('icon/electron.svg');
+}
+
+.browser-icon.falkon {
+  background-image: url('icon/falkon.svg');
+}
+
+.browser-icon.firefox {
+  background-image: url('icon/firefox.svg');
+}
+
+.browser-icon.firefoxbeta {
+  background-image: url('icon/firefoxbeta.svg');
+}
+
+.browser-icon.firefoxdeveloper {
+  background-image: url('icon/firefoxdeveloper.svg');
+}
+
+.browser-icon.firefoxlite {
+  background-image: url('icon/firefoxlite.svg');
+}
+
+.browser-icon.firefoxreality {
+  background-image: url('icon/firefoxreality.svg');
+}
+
+.browser-icon.geckoview {
+  background-image: url('icon/geckoview.svg');
+}
+
+.browser-icon.hermes {
+  background-image: url('icon/hermes.svg');
+}
+
+.browser-icon.huawei {
+  background-image: url('icon/huawei.svg');
+}
+
+.browser-icon.icecat {
+  background-image: url('icon/icecat.svg');
+}
+
+.browser-icon.iceweasel {
+  background-image: url('icon/iceweasel.svg');
+}
+
+.browser-icon.internetexplorer {
+  background-image: url('icon/internetexplorer.svg');
+}
+
+.browser-icon.konqueror {
+  background-image: url('icon/konqueror.svg');
+}
+
+.browser-icon.maxthon {
+  background-image: url('icon/maxthon.svg');
+}
+
+.browser-icon.midori {
+  background-image: url('icon/midori.svg');
+}
+
+.browser-icon.netscape {
+  background-image: url('icon/netscape.svg');
+}
+
+.browser-icon.netsurf {
+  background-image: url('icon/netsurf.svg');
+}
+
+.browser-icon.node {
+  background-image: url('icon/node.svg');
+}
+
+.browser-icon.opera {
+  background-image: url('icon/opera.svg');
+}
+
+.browser-icon.operagx {
+  background-image: url('icon/operagx.svg');
+}
+
+.browser-icon.qutebrowser {
+  background-image: url('icon/qutebrowser.svg');
+}
+
+.browser-icon.safari {
+  background-image: url('icon/safari.svg');
+}
+
+.browser-icon.samsunginternet {
+  background-image: url('icon/samsunginternet.svg');
+}
+
+.browser-icon.samsunginternetbeta {
+  background-image: url('icon/samsunginternetbeta.svg');
+}
+
+.browser-icon.spidermonkey {
+  background-image: url('icon/spidermonkey.svg');
+}
+
+.browser-icon.tor {
+  background-image: url('icon/tor.svg');
+}
+
+.browser-icon.ucbrowser {
+  background-image: url('icon/ucbrowser.svg');
+}
+
+.browser-icon.vivaldi {
+  background-image: url('icon/vivaldi.svg');
+}
+
+.browser-icon.yandex {
+  background-image: url('icon/yandex.svg');
+}
+
+.browser-icon img {
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
 }
 
 .browser-name {
@@ -28,61 +220,16 @@ body {
   margin-top: 8px;
 }
 
-.browser-icon.chrome {
-  background-image: url('icon/chrome.svg');
+@media (max-width: 768px) {
+  .browser-icon img {
+    width: 48px;
+    height: 48px;
+  }
 }
 
-.browser-icon.edge {
-  background-image: url('icon/edge.svg');
-}
-
-.browser-icon.firefox {
-  background-image: url('icon/firefox.svg');
-}
-
-.browser-icon.safari {
-  background-image: url('icon/safari.svg');
-}
-
-.browser-icon.opera {
-  background-image: url('icon/opera.svg');
-}
-
-.browser-icon.brave {
-  background-image: url('icon/brave.svg');
-}
-
-.browser-icon.tor {
-  background-image: url('icon/tor.svg');
-}
-
-.browser-icon.duckduckgo {
-  background-image: url('icon/duckduckgo.svg');
-}
-
-.browser-icon.yandex {
-  background-image: url('icon/yandex.svg');
-}
-
-.browser-icon.vivaldi {
-  background-image: url('icon/vivaldi.svg');
-}
-
-.browser-icon.samsung {
-  background-image: url('icon/samsung.svg');
-}
-
-.browser-icon.huawei {
-  background-image: url('icon/huawei.svg');
-}
-
-.browser-icon.maxthon {
-  background-image: url('icon/maxthon.svg');
-}
-
-.browser-icon img {
-  display: block;
-  width: 48px;
-  height: 48px;
-  margin: 0 auto;
+@media (min-width: 769px) {
+  .browser-icon img {
+    width: 72px;
+    height: 72px;
+  }
 }
