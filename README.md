@@ -23,12 +23,12 @@ Explore the full list of supported browsers with icons and class names for easy 
 
 ## 🚀 Usage
 
-Use CDN:
-```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/browser-icon@1.0.1/browser-icon.css">```
+## 🚀 Usage
 
-Use html:
-```
+Use CDN:
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/browser-icon@1.0.1/browser-icon.css">
+
 <div class="bi chrome md">
   <div class="browser-name">Chrome</div>
 </div>```
