@@ -7,6 +7,23 @@ This project provides a collection of browser icons using pure CSS classes and r
 - Clean and responsive design
 - SVG and PNG-based remote icons
 
+## 🧾 Supported Browsers
+- Chrome
+- Firefox
+- Edge
+- Safari
+- Opera
+- Brave
+- Tor
+- Yandex
+- Vivaldi
+- Samsung Internet
+- Huawei Browser
+- Maxthon
+- Cyberfox
+- DuckDuckGo
+- Internet Explorer
+
 ## 📦 Usage
 
 ```html
