@@ -29,16 +29,17 @@ This project displays a collection of browser icons using HTML and CSS. The icon
 ```html
 <link rel="stylesheet" href="browser-icons.css">
 
-<div class="browser-icon opera sm">
-  <div class="browser-name">Opera</div>
+<div class="bi firefox md">
+  <div class="browser-name">Firefox</div>
 </div>
 
-<div class="browser-icon chrome md">
+<div class="bi chrome sm">
   <div class="browser-name">Chrome</div>
 </div>
 
-<div class="browser-icon firefox lg">
-  <div class="browser-name">Firefox</div>
+<div class="bi opera lg">
+  <div class="browser-name">Opera</div>
 </div>
+
 
 
