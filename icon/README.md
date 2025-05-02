@@ -40,7 +40,7 @@ Each browser is represented by a custom icon, which can be used with the corresp
 | <img src="midori.svg" height="48"/> | Midori |
 | <img src="netscape.svg" height="48"/> | Netscape Navigator |
 | <img src="netsurf.svg" height="48"/> | NetSurf |
-| <img src="node.svg" height="48"/> | Node.js |
+| <img src="node.svg" height="48"/> | Node |
 | <img src="opera.svg" height="48"/> | Opera |
 | <img src="operagx.svg" height="48"/> | Opera GX |
 | <img src="qutebrowser.svg" height="48"/> | Qutebrowser |
