@@ -1,5 +1,5 @@
 {
-  "name": "browser-icons",
+  "name": "@sharifanis/browser-icons",
   "version": "1.0.0",
   "description": "A collection of browser icons for easy integration into web projects.",
   "main": "browser-icons.css",
