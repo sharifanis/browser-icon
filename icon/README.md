@@ -6,13 +6,13 @@ This project supports the following browsers, each represented with a custom ico
 
 | Icon | Name         |
 |------|--------------|
-| ![](icon/chrome.svg) | Chrome |
-| ![](icon/firefox.svg) | Firefox |
-| ![](icon/opera.svg)   | Opera |
-| ![](icon/safari.svg)  | Safari |
-| ![](icon/edge.svg)    | Microsoft Edge |
-| ![](icon/ucbrowser.svg) | UC Browser |
-| ![](icon/yandex.svg)  | Yandex |
-| ![](icon/tor.svg)     | Tor Browser |
-| ![](icon/maxthon.svg) | Maxthon |
+| ![](chrome.svg) | Chrome |
+| ![](firefox.svg) | Firefox |
+| ![](opera.svg)   | Opera |
+| ![](safari.svg)  | Safari |
+| ![](edge.svg)    | Microsoft Edge |
+| ![](ucbrowser.svg) | UC Browser |
+| ![](yandex.svg)  | Yandex |
+| ![](tor.svg)     | Tor Browser |
+| ![](maxthon.svg) | Maxthon |
 | ... | ... |
