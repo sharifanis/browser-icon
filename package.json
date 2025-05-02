@@ -2,7 +2,7 @@
   "name": "browser-icons",
   "version": "1.0.0",
   "description": "A collection of browser icons for easy integration into web projects.",
-  "main": "browsericons.css",
+  "main": "browser-icons.css",
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
   },
