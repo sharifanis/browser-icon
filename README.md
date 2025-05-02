@@ -9,6 +9,12 @@ A lightweight and responsive browser icon system using pure CSS and SVG icons. S
 - Easy to use with minimal HTML and CSS
 - No JavaScript required
 
+🧩 Sizes
+
+- .sm – 24px
+- .md – 48px
+- .lg – 72px
+
 ## 🚀 Usage
 
 ```html
