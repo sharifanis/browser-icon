@@ -1,27 +1,24 @@
-name: Publish Package to npm
+name: Publish to npm
 
 on:
   push:
-    branches:
-      - main  # Set to the branch you want to publish from (e.g., main or master)
+    tags:
+      - 'v*.*.*'
 
 jobs:
   publish:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '16'  # Use your required Node.js version
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          registry-url: 'https://registry.npmjs.org'
 
-    - name: Install dependencies
-      run: npm install
+      - run: npm install
 
-    - name: Publish to npm
-      run: npm publish --access public
-      env:
-        NODE_AUTH_TOKEN: ${{secrets.NPM_BROWSER}}  # Set up your npm token in GitHub secrets
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
