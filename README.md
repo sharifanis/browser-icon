@@ -27,8 +27,7 @@ Use CDN:
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/browser-icon@1.0.1/browser-icon.css">
 
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/browser-icon@1.0.1/browser-icon.css">
+Use html:
 
 <div class="bi chrome md">
   <div class="browser-name">Chrome</div>
