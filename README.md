@@ -15,6 +15,11 @@ A lightweight and responsive browser icon system using pure CSS and SVG icons. S
 - .md – 48px
 - .lg – 72px
 
+## 👉 See full list of 
+
+[Supported Browsers](SUPPORTED_BROWSERS.md)
+
+
 ## 🚀 Usage
 
 ```html
