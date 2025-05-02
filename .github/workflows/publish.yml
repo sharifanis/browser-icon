@@ -3,14 +3,14 @@ name: Publish to npm
 on:
   push:
     tags:
-      - 'v*' # Triggers only on version tags like v1.0.0
+      - 'v*'
 
 jobs:
   publish:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Node.js
@@ -23,6 +23,6 @@ jobs:
         run: npm install
 
       - name: Publish to npm
-        run: npm publish
+        run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_BROWSER_ICONS }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_BROWSER_ICONS}}
