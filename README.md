@@ -7,23 +7,6 @@ This project displays a collection of browser icons using HTML and CSS. The icon
 - Responsive layout for better presentation on different screen sizes.
 - Customizable by adding more browser icons.
 
-## 🧾 Supported Browsers
-- Chrome
-- Firefox
-- Edge
-- Safari
-- Opera
-- Brave
-- Tor
-- Yandex
-- Vivaldi
-- Samsung Internet
-- Huawei Browser
-- Maxthon
-- Cyberfox
-- DuckDuckGo
-- Internet Explorer
-
 ## 📦 Usage
 
 ```html
