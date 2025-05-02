@@ -32,7 +32,7 @@ Each browser is represented by a custom icon, which can be used with the corresp
 | <img src="geckoview.svg" height="48"/> | GeckoView |
 | <img src="hermes.svg" height="48"/> | Hermes |
 | <img src="huawei.svg" height="48"/> | Huawei Browser |
-| <img src="icecat.svg" height="48"/> | GNU IceCat |
+| <img src="icecat.svg" height="48"/> | IceCat |
 | <img src="iceweasel.svg" height="48"/> | Iceweasel |
 | <img src="internetexplorer.svg" height="48"/> | Internet Explorer |
 | <img src="konqueror.svg" height="48"/> | Konqueror |
