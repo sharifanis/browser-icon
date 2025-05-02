@@ -9,27 +9,35 @@ body {
 }
 
 .browser-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 20px;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 120px;
+  flex-direction: column;
 }
 
-.browser-icon img.small {
+.browser-icon.sm {
   width: 24px;
   height: 24px;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.browser-icon img.medium {
+.browser-icon.md {
   width: 48px;
   height: 48px;
+  background-size: 48px 48px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.browser-icon img.large {
+.browser-icon.lg {
   width: 72px;
   height: 72px;
+  background-size: 72px 72px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .browser-icon.aolexplorer {
@@ -208,28 +216,9 @@ body {
   background-image: url('icon/yandex.svg');
 }
 
-.browser-icon img {
-  display: block;
-  margin: 0 auto;
-  object-fit: contain;
-}
-
 .browser-name {
   font-size: 14px;
   color: #333;
   margin-top: 8px;
-}
-
-@media (max-width: 768px) {
-  .browser-icon img {
-    width: 48px;
-    height: 48px;
-  }
-}
-
-@media (min-width: 769px) {
-  .browser-icon img {
-    width: 72px;
-    height: 72px;
-  }
+  text-align: center;
 }
