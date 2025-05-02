@@ -1,2 +1,15 @@
-# browser-icons-css
-A collection of browser icons styled with pure CSS, utilizing background images for an easy-to-integrate and responsive design. No JavaScript or &lt;img> tags required—just simple CSS classes.
+# Browser Icons (Pure CSS)
+
+This project provides a collection of browser icons using pure CSS classes and remote image URLs. No JavaScript or `<img>` tags required.
+
+## ✨ Features
+- Easy to use with just CSS classes
+- Clean and responsive design
+- SVG and PNG-based remote icons
+
+## 📦 Usage
+
+<link rel="stylesheet" href="browser-icons.css">
+
+<div class="browser-icon icon-chrome"></div>
+<div class="browser-icon icon-firefox"></div>
